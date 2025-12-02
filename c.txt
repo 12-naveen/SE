@@ -1,0 +1,139 @@
+Functional Requirements:
+
+Functional requirements define the specific behaviors, functions, and operations that the Book Bank System must support to meet user needs. These are directly tied to what the system is intended to do.
+
+User Registration and Authentication:
+
+Users (students, staff, etc.) must be able to register on the system using their personal details like name, contact, student ID, etc.
+
+The system must support user login and authentication (username/password) to access the system.
+
+Book Catalog Management:
+
+The system must provide a catalog of books available in the book bank.
+
+Users should be able to search for books based on different criteria (title, author, category, etc.).
+
+Admins should be able to add, update, or remove books from the catalog.
+
+Book Issuance and Return:
+
+Users should be able to request books for issuance.
+
+The system should allow the admin or librarian to approve or deny the request based on book availability.
+
+Users must return books by the specified due date, and the system should track the return dates and fines (if any).
+
+Book Reservation:
+
+Users should be able to reserve books if they are currently unavailable.
+
+The system should notify the user when a reserved book becomes available.
+
+Book Availability Check:
+
+The system must allow users to check the availability of books in real-time.
+
+It should show the number of copies available and whether the book is issued or reserved.
+
+Fines and Penalties Management:
+
+The system should automatically calculate and display fines for overdue books.
+
+Users should be able to view and pay fines online, if applicable.
+
+Book Return Reminder:
+
+The system should send automatic reminders to users about due dates for book returns.
+
+Reporting:
+
+Admins must be able to generate reports on the number of books issued, returned, available, overdue, etc.
+
+Users should be able to view a history of their issued books.
+
+User Roles and Permissions:
+
+Different user roles (admin, librarian, student) should have different levels of access and permissions. For example:
+
+Admins can manage the catalog, users, and generate reports.
+
+Librarians can issue, return, and track books.
+
+Students can request and return books, view their history.
+
+Book Renewals:
+
+Users should be able to request a renewal for the books they have borrowed, provided the book is not reserved by someone else.
+
+Non-Functional Requirements:
+
+Non-functional requirements define the performance, usability, reliability, and other system characteristics that ensure the system meets the user's expectations and works efficiently under different conditions.
+
+Performance:
+
+The system should be able to handle multiple users simultaneously without degradation in performance (e.g., fast response time for searching books or issuing books).
+
+Book searches and catalog browsing should have minimal latency.
+
+Scalability:
+
+The system must be able to scale to accommodate increasing numbers of users and books over time.
+
+It should support both horizontal and vertical scaling as needed.
+
+Availability:
+
+The system should be highly available with minimal downtime. Ideally, it should have 99.9% uptime.
+
+Regular backups should be taken to prevent data loss.
+
+Usability:
+
+The interface should be user-friendly and intuitive, so users can easily find and issue books, as well as navigate the system.
+
+Accessibility features should be included for users with disabilities.
+
+Security:
+
+The system must ensure secure user authentication (e.g., encryption of passwords).
+
+Sensitive data like user details and transaction history must be protected using encryption protocols.
+
+The system should prevent unauthorized access by enforcing strict role-based access control (RBAC).
+
+Data Integrity:
+
+The system should ensure data consistency, particularly with book availability and user transactions (e.g., book issuance and returns).
+
+The data should not be lost or corrupted in case of system failures.
+
+Compliance:
+
+The system should comply with legal and regulatory standards, especially concerning data privacy laws (e.g., GDPR, HIPAA, etc.) for handling user information.
+
+Interoperability:
+
+The system should be able to integrate with other systems, such as student management systems or payment gateways for fines.
+
+It should support import/export functionalities for book data or user details.
+
+Maintainability:
+
+The system should be easy to maintain, with clear documentation for both users and developers.
+
+Code should follow best practices and be modular so that updates or changes can be made without disrupting the entire system.
+
+Localization:
+
+If the system is intended to be used by people from different regions, it should support multiple languages and regional formats (e.g., currency, date).
+
+Backup and Recovery:
+
+The system should support automated backup processes and disaster recovery mechanisms to prevent data loss in case of system failures.
+
+Summary:
+
+Functional Requirements describe what the Book Bank System does, such as managing books, issuing and returning them, user registration, and handling fines.
+
+Non-Functional Requirements describe how the system performs, covering aspects like security, usability, performance, and scalability.
